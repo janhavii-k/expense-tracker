@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #171526;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 420px;
+    margin: 30px auto;
+    background: #25223a;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+h1 {
+    color: #c6a7ff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.balance-card {
+    background: #7046bd;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.balance-card h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    background: #37334d;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.income h3 {
+    color: #5ce0a0;
+}
+
+.expense h3 {
+    color: #ff778b;
+}
+
+h2 {
+    margin: 20px 0 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #a77bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+li {
+    background: #37334d;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    overflow-wrap: anywhere;
+}
+
+.delete {
+    width: auto;
+    background: #e65c70;
+    padding: 8px 12px;
+}
